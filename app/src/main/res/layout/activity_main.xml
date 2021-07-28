@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#22f1eaea"
+    android:orientation="vertical"
+    tools:context="com.example.fitnessapp.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_700"
+        android:textAlignment="textEnd"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        app:title="Fitness App"
+        app:titleTextColor="#FFF"
+        android:gravity="end" />
+
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:scrollbars="none"
+      >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:orientation="vertical">
+
+
+
+
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_marginTop="15.0dp"
+              android:background="@drawable/backgroundcrop"
+              android:orientation="vertical"
+              >
+
+              <LinearLayout
+                  android:onClick="abworkout"
+                  android:layout_width="fill_parent"
+                  android:layout_height="150.0dp"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+
+
+
+                  >
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1.0"
+                      android:orientation="vertical"
+
+
+                      >
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="monospace"
+                          android:padding="5dp"
+                          android:text="Ab workout"
+                          android:textColor="#FF000000"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="serif"
+                          android:padding="5.0dp"
+                          android:text=" 21 Days"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:text="Desgined to increase core strength and reduce belly fat"
+                          android:textColor="#2D5A56"
+                          android:textStyle="italic" />
+
+
+                  </LinearLayout>
+
+
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="2.0"
+
+
+                      >
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="2dp"
+                          android:src="@drawable/abs"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.0" >
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5.0dp"
+                          android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+              <Button
+                  android:id="@+id/startab"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/btn"
+                  android:text="GET STARTED"
+                  android:textColor="#FFF"/>
+
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_marginTop="15.0dp"
+              android:background="@drawable/backgroundcrop"
+              android:orientation="vertical"
+              >
+
+              <LinearLayout
+                  android:onClick="lowerbody"
+                  android:layout_width="fill_parent"
+                  android:layout_height="150.0dp"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+
+
+
+                  >
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1.0"
+                      android:orientation="vertical"
+
+
+                      >
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="monospace"
+                          android:padding="5dp"
+                          android:text="Lower Body Workout"
+                          android:textColor="#FF000000"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="serif"
+                          android:padding="5.0dp"
+                          android:text=" 15 Days"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:text="Desgined to strengthen and tone glutes and legs"
+                          android:textColor="#2D5A56"
+                          android:textStyle="italic" />
+
+
+                  </LinearLayout>
+
+
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="2.0"
+
+
+                      >
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="2dp"
+                          android:src="@drawable/leg2"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.0" >
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5.0dp"
+                          android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+              <Button
+                  android:id="@+id/startlower"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/btn"
+                  android:text="GET STARTED"
+                  android:textColor="#FFF"/>
+
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_marginTop="15.0dp"
+              android:background="@drawable/backgroundcrop"
+              android:orientation="vertical"
+              >
+
+              <LinearLayout
+                  android:onClick="upperbody"
+                  android:layout_width="fill_parent"
+                  android:layout_height="150.0dp"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+
+
+
+                  >
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1.0"
+                      android:orientation="vertical"
+
+
+                      >
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="monospace"
+                          android:padding="5dp"
+                          android:text="Upper Body Workout"
+                          android:textColor="#FF000000"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="serif"
+                          android:padding="5.0dp"
+                          android:text=" 15 Days"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:text="Desgined for toning and strengthening the upper body"
+                          android:textColor="#2D5A56"
+                          android:textStyle="italic" />
+
+
+                  </LinearLayout>
+
+
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="2.0"
+
+
+                      >
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="2dp"
+                          android:src="@drawable/arms2"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.0" >
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5.0dp"
+                          android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+              <Button
+                  android:id="@+id/startupper"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/btn"
+                  android:text="GET STARTED"
+                  android:textColor="#FFF"/>
+
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_marginTop="15.0dp"
+              android:background="@drawable/backgroundcrop"
+              android:orientation="vertical"
+              >
+
+              <LinearLayout
+                  android:onClick="fullbody"
+                  android:layout_width="fill_parent"
+                  android:layout_height="150.0dp"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+
+
+                  android:baselineAligned="false">
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1.0"
+                      android:orientation="vertical"
+
+
+                      >
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="monospace"
+                          android:padding="5dp"
+                          android:text="Full Body Workout"
+                          android:textColor="#FF000000"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="serif"
+                          android:padding="5.0dp"
+                          android:text=" 30 Days"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:text="Desgined for weight loss and to tone the body"
+                          android:textColor="#2D5A56"
+                          android:textStyle="italic" />
+
+
+                  </LinearLayout>
+
+
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="2.0"
+
+
+                      >
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="2dp"
+                          android:src="@drawable/full2"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.0" >
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5.0dp"
+                          android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+              <Button
+                  android:id="@+id/startfull"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/btn"
+                  android:text="GET STARTED"
+                  android:textColor="#FFF"/>
+
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:onClick="food"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_marginTop="15dp"
+              android:background="@drawable/backgroundcrop"
+              android:orientation="vertical"
+              >
+
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="150dp"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:orientation="horizontal" >
+
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1.0"
+                      android:orientation="vertical">
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:fontFamily="monospace"
+                          android:padding="5.0dp"
+                          android:text="Nutrition tips and Mindfulness"
+                          android:textColor="#ff000000"
+                          android:textSize="20dp"
+                          android:textStyle="bold" />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:padding="5.0dp"
+                          android:text="Suggestions "
+                          android:textStyle="bold"/>
+
+                  </LinearLayout>
+
+
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="2.0">
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:src="@drawable/nutrition"/>
+
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.0">
+
+                      <ImageView
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="10.0dp"
+                          android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                  </LinearLayout>
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ScrollView>
+
+
+</LinearLayout>
+
+
+
+
+

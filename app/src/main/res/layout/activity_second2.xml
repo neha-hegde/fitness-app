@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundcrop"
+    android:orientation="vertical"
+    tools:context=".SecondActivity2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@color/purple_700"
+        android:textAlignment="textEnd"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        app:title="Fitness App"
+        app:titleTextColor="#FFF" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:onClick="Imagebuttonclicked"
+                        android:id="@+id/bridge_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:text="BODY BRIDGE"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3x30 reps"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:30 SEC"
+                                android:textColor="#790E8C"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_13"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5.0dp"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        android:background="#ffaaa9a9"/>
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:onClick="Imagebuttonclicked"
+                        android:id="@+id/jsquat_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:text="SQUAT JUMP"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3x30 reps"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:30 SEC"
+                                android:textColor="#790E8C"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exercise_16" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5.0dp"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        android:background="#ffaaa9a9"/>
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:onClick="Imagebuttonclicked"
+                        android:id="@+id/squat_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:text="SQUATS"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3x30 reps"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:30 SEC"
+                                android:textColor="#790E8C"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exercise_17"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5.0dp"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        android:background="#ffaaa9a9"/>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:onClick="Imagebuttonclicked"
+                        android:id="@+id/lunge_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:text="LUNGES"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3x30 reps"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:30 SEC"
+                                android:textColor="#790E8C"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exercise_18"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5.0dp"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        android:background="#ffaaa9a9"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:onClick="Imagebuttonclicked"
+                        android:id="@+id/rlunge_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:text="REVERSE LUNGE"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3x30 reps"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:30 SEC"
+                                android:textColor="#790E8C"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exercise_19"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5.0dp"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        android:background="#ffaaa9a9"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:onClick="Imagebuttonclicked"
+                        android:id="@+id/sts_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:text="SIDE TO SIDE"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3x30 reps"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:30 SEC"
+                                android:textColor="#790E8C"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exercise_20"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5.0dp"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        android:background="#ffaaa9a9"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:onClick="Imagebuttonclicked"
+                        android:id="@+id/ksquat_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:text="SQUAT SIDE KICK"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3x30 reps"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:30 SEC"
+                                android:textColor="#790E8C"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exercise_21"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5.0dp"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        android:background="#ffaaa9a9"/>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
