@@ -75,7 +75,7 @@
 
     <string name="pose16">   Step 1:- Stand straight with your feet shoulder-width apart, chest out, shoulders relaxed, and abs engaged.\n\n
                              Step 2:- Push your hips out, flex your knees, and get into a sitting posture. Your knees should not overshoot your toes. \n\n
-        Step 3:- Get back up and jump. Throw your hands to the side to propel your body up.\n\n
+                             Step 3:- Get back up and jump. Throw your hands to the side to propel your body up.\n\n
                              Step 4:- Land softly on the floor and squat down again. </string>
 
     <string name="pose17">   Step 1:- Stand straight with your feet hip-width apart and Draw your arms forward, perpendicular to the ground.\n\n
@@ -121,4 +121,28 @@
     <string name="pose25">   Step 1:- Stand up straight with your knees slightly bent, your feet shoulder-width apart and your arms stretched horizontally to the sides.\n\n
                              Step 2:- Cross your arms at the front and then quickly bring them back as far as you can. \n\n
                              Step 3:- Repeat this back and forth movement until the set is complete. </string>
+
+    <string name="tips"></string>
+    <string name="tip">1.Base your meals on higher fibre starchy carbohydrates\n\n
+                            * Starchy carbohydrates should make up just over a third of the food you eat. They include potatoes, bread, rice, pasta and cereals.\n
+                            * Choose higher fibre or wholegrain varieties, such as wholewheat pasta, brown rice or potatoes with their skins on.\n
+                            * They contain more fibre than white or refined starchy carbohydrates and can help you feel full for longer.\n
+                            * Try to include at least 1 starchy food with each main meal.\n\n
+                            2. Eat lots of fruit and veg\n\n
+                            * Its recommended that you eat at least 5 portions of a variety of fruit and veg every day. They can be fresh, frozen, canned, dried or juiced.\n
+                            * A portion of fresh, canned or frozen fruit and vegetables is 80g. A portion of dried fruit (which should be kept to mealtimes) is 30g.\n
+                            * A 150ml glass of fruit juice, vegetable juice or smoothie also counts as 1 portion, but limit the amount you have to no more than 1 glass a day as these drinks are sugary and can damage your teeth.\n\n
+                            3. Eat more fish, including a portion of oily fish\n\n
+                            * Fish is a good source of protein and contains many vitamins and minerals.\n
+                            * Aim to eat at least 2 portions of fish a week, including at least 1 portion of oily fish.\n
+                            * Oily fish are high in omega-3 fats, which may help prevent heart disease.\n\n
+                            4. Cut down on saturated fat and sugar\n\n
+                            * You need some fat in your diet, but its important to pay attention to the amount and type of fat youre eating.\n
+                            * There are 2 main types of fat: saturated and unsaturated. Too much saturated fat can increase the amount of cholesterol in the blood, which increases your risk of developing heart disease.\n
+                            * On average, men should have no more than 30g of saturated fat a day. On average, women should have no more than 20g of saturated fat a day.\n
+                            * More than 22.5g of total sugars per 100g means the food is high in sugar, while 5g of total sugars or less per 100g means the food is low in sugar.\n\n
+                            5.Do not skip breakfast\n\n
+                            * Some people skip breakfast because they think itll help them lose weight.\n
+                            * But a healthy breakfast high in fibre and low in fat, sugar and salt can form part of a balanced diet, and can help you get the nutrients you need for good health.\n
+                            * A wholegrain lower sugar cereal with semi-skimmed milk and fruit sliced over the top is a tasty and healthier breakfast.</string>
 </resources>

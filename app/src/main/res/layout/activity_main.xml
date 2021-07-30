@@ -479,11 +479,12 @@
 
 
                       <TextView
+                          android:id="@+id/nutrition"
                           android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
                           android:fontFamily="monospace"
                           android:padding="5.0dp"
-                          android:text="Nutrition tips and Mindfulness"
+                          android:text="Body Mass Index Calculator"
                           android:textColor="#ff000000"
                           android:textSize="20dp"
                           android:textStyle="bold" />
@@ -526,42 +527,20 @@
 
                   </LinearLayout>
 
-              </LinearLayout>
 
+              </LinearLayout>
+              <Button
+                  android:id="@+id/checkBmi"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/btn"
+                  android:text="CHECK BMI"
+                  android:textColor="#FFF"/>
 
           </LinearLayout>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
       </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </ScrollView>
 
