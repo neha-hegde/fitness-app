@@ -13,13 +13,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="120dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="0dp"
                 android:text="BMI Calculator"
@@ -110,7 +110,6 @@
                 android:id="@+id/bmiBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:layout_marginStart="140dp"
                 android:textColor="@color/white"
                 android:backgroundTint="#6504DD"
                 android:text="Compute BMI" />
@@ -161,7 +160,7 @@
                 android:id="@+id/result"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:layout_marginStart="140dp"
+
                 android:layout_marginBottom="30dp"
                 android:text="BMI Category"
                 android:textColor="@color/black"
@@ -177,7 +176,6 @@
                 android:id="@+id/nutriBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:layout_marginStart="140dp"
                 android:textColor="@color/white"
                 android:backgroundTint="#6504DD"
                 android:text="Health Tips" />
